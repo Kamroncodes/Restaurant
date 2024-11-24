@@ -1,0 +1,179 @@
+/* body */
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', Arial, sans-serif;
+    color: #500d06;;
+}
+
+div {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+.subsec {
+   width: 44%;
+}
+
+h2 {
+   font-size: 32px;
+   margin: 1.5rem;
+}
+
+h3 {
+   margin: 1rem;
+}
+
+p {
+    margin: 0.5rem;
+}
+
+     /* fonts */
+
+.quicksand-normal {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+      
+.quicksand-bold {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+      
+.quicksand-light {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+
+#logodiv {
+    width: 115px;
+}
+
+nav img {
+    width: 115px;
+    height: 115px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    height: fit-content;
+    padding: 70px 50px 0 0;
+    font-size: 18px;
+}
+
+#lidiv {
+    justify-content: center;
+}
+
+/* Landing Page */
+
+#landingpagediv {
+    padding-top: 100px;
+}
+
+#landingpagediv img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Info Div */
+
+
+#infodiv {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 0;
+}
+
+#subsecinfo {
+    text-align: center;
+    border: 2px solid #500d06;
+}
+
+     /* text side */
+
+#infodiv h2 {
+    width: fit-content;
+    padding: 0 0 0.75rem 0;
+    justify-self: center;
+    border-bottom: 1px dashed #500d06;
+}
+
+#infobottomp {
+    margin-bottom: 1.5rem;
+}
+
+#locationlink {
+    text-decoration:none;
+    color: black;
+}
+
+#locationlink:hover {
+    text-decoration: underline;
+}
+
+#locationlink:click {
+    text-decoration: underline;
+}
+
+     /* pic side */
+
+#infopic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Menu */
+
+#menudivbackground {
+  background-image: url("../Restaurant/Resources/Thaifood2.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  height: 300px;
+  margin: 0;
+}
+
+#menuh2div {
+    padding: 100px 0;
+    margin: 0;
+}
+
+#menuh2div h2 {
+    background-color: white;
+    border: 2px solid #500d06;
+    width: fit-content;
+    margin: 0;
+    padding: 12px;
+    justify-self: center;
+}

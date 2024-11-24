@@ -3,34 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Restaurant/Restaurant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet"> 
     <title>Restaurant Website</title>
-    <link rel="stylesheet" href="./Restaurant.css">
+    
   </head>
   <body>
     <nav>
-      <ul>
-        <li><a class="navbutton">Welcome</a></li>
-        <li><a class="navbutton">Info</a></li>
-        <li><a class="navbutton">Menu</a></li>
-        <li><a class="navbutton">Our Story</a></li>
-        <li><a class="navbutton">Pictures</a></li>
-      </ul>
+      <div id="logodiv">
+        <img src="../Restaurant/Resources/logo.png">
+      </div>
+      <div id="lidiv">
+        <ul>
+          <li><a class="navbutton">Welcome</a></li>
+          <li><a class="navbutton">Info</a></li>
+          <li><a class="navbutton">Menu</a></li>
+          <li><a class="navbutton">Our Story</a></li>
+          <li><a class="navbutton">Pictures</a></li>
+        </ul>
+      </div>
     </nav>
-    <div class="landingpagediv">
-
+    <div class="section" id="landingpagediv">
+      <img src="../Restaurant/Resources/Thaifood1.jpeg">
     </div>
-    <div class="infodiv">
-    
+    <div class="section" id="infodiv">
+      <div class="subsec" id="subsecinfo">
+        <h2>Eat With Us</h2>
+        <h3>Location</h3>
+        <p><a id="locationlink" href="https://www.google.com/maps/place/%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5+%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A7+%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5+%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5+18000/@14.5264348,100.8981598,14z/data=!3m1!4b1!4m6!3m5!1s0x311de91185aa76ff:0x4019237450cbaf0!8m2!3d14.5270426!4d100.9130244!16zL20vMDRweHZ6?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">1234 Soi Goodfood, Saraburi</a></p>
+        <h3>Hours</h3>
+        <p>Sunday - Thursday</p>
+        <p>11:00 - 22:30</p>
+        <p>Friday - Saturday</p>
+        <p>11:00 - 1:00</p>
+        <h3>Contact Us</h3>
+        <p id="infobottomp">080-111-9999</p>
+      </div>
+      <div class="subsec" id="infopicdiv">
+        <img src="../Restaurant/Resources/Thairest1.jpg"  id="infopic">
+      </div>
     </div>
-    <div class="menudiv">
-
+    <div class="section" id="menudiv">
+         <div id="menudivbackground">
+            <div id="menuh2div">
+              <h2>Menu</h2>
+            </div>
+         </div>
     </div>
-    <div class="ourstorydiv">
-
+    <div class="section" id="storydiv">
+       <h2>Bottom</h2>
     </div>
-    <div class="picsdiv">
+    <div class="section" id="picdiv">
 
     </div>
   </body>
-  <script src="./Restaurant.js"></script>
+  <script src="../Restaurant/Restaurant.js"></script>
 </html>
