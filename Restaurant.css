@@ -333,9 +333,9 @@ nav li {
 }
 
 .story_text {
-    margin: 48px;
+    margin: 48px auto;
+    padding: 0 48px;
     max-width: 640px;
-    justify-self: center;
 }
 
 /* Pictures */
