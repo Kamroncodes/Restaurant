@@ -8,55 +8,161 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet"> 
     <title>Restaurant Website</title>
-    
   </head>
   <body>
     <nav>
-      <div id="logodiv">
-        <img src="../Restaurant/Resources/logo.png">
+      <div id="logo_div">
+        <img id="logo-img" src="../Restaurant/Resources/logo.png">
       </div>
-      <div id="lidiv">
+      <div id="li_div">
         <ul>
-          <li><a class="navbutton">Welcome</a></li>
-          <li><a class="navbutton">Info</a></li>
-          <li><a class="navbutton">Menu</a></li>
-          <li><a class="navbutton">Our Story</a></li>
-          <li><a class="navbutton">Pictures</a></li>
+          <li class="top-li"><a class="navbutton" id="button-landing-page_div">Welcome</a></li>
+          <li class="top-li"><a class="navbutton" id="button-info_div">Info</a></li>
+          <li class="top-li"><a class="navbutton" id="button-menu_div">Menu</a></li>
+          <li class="top-li"><a class="navbutton" id="button-story_div">Our Story</a></li>
+          <li class="top-li"><a class="navbutton" id="button-picdiv">Pictures</a></li>
         </ul>
       </div>
     </nav>
-    <div class="section" id="landingpagediv">
-      <img src="../Restaurant/Resources/Thaifood1.jpeg">
+    <div class="section" id="landing-page_div">
+      <div id="carousel">
+        <button class="carousel-button" id="carousel-button-right">&#8702;</button>
+        <div id="carousel-track-div">
+          <ul id="carousel-track">
+            <li class="carousel-slide current-slide">
+              <img src="../Restaurant/Resources/Thaifood1.jpeg">
+            </li>
+            <li class="carousel-slide">
+              <img src="../Restaurant/Resources/Thaifood2.jpg">
+            </li>
+            <li class="carousel-slide">
+              <img src="../Restaurant/Resources/thaifood4.jpeg">
+            </li>
+            <li class="carousel-slide">
+              <img src="../Restaurant/Resources/thaifood5.jpg">
+            </li>
+            <li class="carousel-slide">
+              <img src="../Restaurant/Resources/thaifood6.jpg">
+            </li>
+          </ul>
+        </div>
+        <button class="carousel-button" id="carousel-button-left">&#8701;</button>
+      </div>
     </div>
-    <div class="section" id="infodiv">
-      <div class="subsec" id="subsecinfo">
+    <div class="section" id="info_div">
+      <div class="subsec" id="subsec_info">
         <h2>Eat With Us</h2>
         <h3>Location</h3>
-        <p><a id="locationlink" href="https://www.google.com/maps/place/%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5+%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A7+%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5+%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5+18000/@14.5264348,100.8981598,14z/data=!3m1!4b1!4m6!3m5!1s0x311de91185aa76ff:0x4019237450cbaf0!8m2!3d14.5270426!4d100.9130244!16zL20vMDRweHZ6?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">1234 Soi Goodfood, Saraburi</a></p>
+        <p><a id="location-link" href="https://www.google.com/maps/place/%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5+%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A7+%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5+%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5+18000/@14.5264348,100.8981598,14z/data=!3m1!4b1!4m6!3m5!1s0x311de91185aa76ff:0x4019237450cbaf0!8m2!3d14.5270426!4d100.9130244!16zL20vMDRweHZ6?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D" target="_blank">1234 Soi Goodfood, Saraburi</a></p>
         <h3>Hours</h3>
         <p>Sunday - Thursday</p>
         <p>11:00 - 22:30</p>
         <p>Friday - Saturday</p>
         <p>11:00 - 1:00</p>
         <h3>Contact Us</h3>
-        <p id="infobottomp">080-111-9999</p>
+        <p id="info_bottom--p">080-111-9999</p>
       </div>
-      <div class="subsec" id="infopicdiv">
-        <img src="../Restaurant/Resources/Thairest1.jpg"  id="infopic">
+      <div class="subsec" id="info-pic_div">
+        <img src="../Restaurant/Resources/Thairest1.jpg"  id="info-pic">
       </div>
     </div>
-    <div class="section" id="menudiv">
-         <div id="menudivbackground">
-            <div id="menuh2div">
+    <div class="section" id="menu_div">
+         <div id="menu_div_background">
+            <div id="menu_div_title">
               <h2>Menu</h2>
             </div>
          </div>
+         <div class="menu_div_center">
+          <h3 class="menu_description-text">Our Menus include a range of Thai dishes from North to South and are guaranteed to get you smiling from East to West.</h3>
+          <div id="menu_buttons_div"> 
+           <p class="menu_buttons" id="menu_lunch-button">Lunch</p>
+           <p class="menu_buttons" id="menu_dinner-button">Dinner</p>
+           <p class="menu_buttons" id="menu_drinks-button">Drinks</p>
+         </div>
+        </div>
+         <div id="menu_all">
+           <div class="menu" id="menu_lunch">
+             <h3>Lunch</h3>
+             <div class="menu_rows">
+               <div>
+                <span class="menu-item"><p class="menu_thai">ข้าวผัด</p><p class="menu_price">120</p></span><p class="menu_english">Kao Pat</p>
+                <span class="menu-item"><p class="menu_thai">ข้าวคลุกกะปิ</p><p class="menu_price">150</p></span><p class="menu_english">Kao Kluk Gapi</p>
+                <span class="menu-item"><p class="menu_thai">ข้าวพริกไทยดำ</p><p class="menu_price">120</p></span><p class="menu_english">Kao Prik Tai Dam</p>
+               </div>
+               <div class="menu_row_2">
+                <span class="menu-item"><p class="menu_thai">ข้าวต้ม</p><p class="menu_price">120</p></span><p class="menu_english">Kao Dom</p>
+                <span class="menu-item"><p class="menu_thai">ผัดกะเพรา</p><p class="menu_price">130</p></span><p class="menu_english">Pat Gaprao</p>
+                <span class="menu-item"><p class="menu_thai">ข้าวผัดกระเทียม</p><p class="menu_price">140</p></span><p class="menu_english">Kao Pat Gratium</p>
+              </div>
+             </div>
+           </div>
+           <div class="menu" id="menu_dinner">
+            <h3>Dinner</h3>
+            <div class="menu_rows">
+              <div>
+               <span class="menu-item"><p class="menu_thai">ข้าวผัด</p><p class="menu_price">120</p></span><p class="menu_english">Kao Pat</p>
+               <span class="menu-item"><p class="menu_thai">ข้าวคลุกกะปิ</p><p class="menu_price">150</p></span><p class="menu_english">Kao Kluk Gapi</p>
+               <span class="menu-item"><p class="menu_thai">ข้าวพริกไทยดำ</p><p class="menu_price">120</p></span><p class="menu_english">Kao Prik Tai Dam</p>
+               <span class="menu-item"><p class="menu_thai">ก๋วยเตี๋ยวเรือ</p><p class="menu_price">120</p></span><p class="menu_english">Gwuy Ti-ao Ruuea</p>
+               <span class="menu-item"><p class="menu_thai">เส้นใหญ่เย็นตาโฟ</p><p class="menu_price">150</p></span><p class="menu_english">Sen Yai Yentafo</p>
+               <span class="menu-item"><p class="menu_thai">ก๋วยเตี๋ยวหมูน้ําตก</p><p class="menu_price">120</p></span><p class="menu_english">Gwuy Ti-ao Muu Nam Dtok</p>
+              </div>
+              <div class="menu_row_2">
+               <span class="menu-item"><p class="menu_thai">ข้าวต้ม</p><p class="menu_price">120</p></span><p class="menu_english">Kao Dom</p>
+               <span class="menu-item"><p class="menu_thai">กะเพราเนื้อสับไข่ดาว</p><p class="menu_price">130</p></span><p class="menu_english">Gaprao Nuuea Sap Kai Dao</p>
+               <span class="menu-item"><p class="menu_thai">ข้าวผัดกระเทียม</p><p class="menu_price">140</p></span><p class="menu_english">Kao Pat Gratium</p>
+               <span class="menu-item"><p class="menu_thai">ก๋วยเตี๋ยวเส้นเล็กต้มยํา</p><p class="menu_price">120</p></span><p class="menu_english">Gwuy Ti-ao Sen Lek Dtom Yum</p>
+               <span class="menu-item"><p class="menu_thai">เล็กยําแห้ง</p><p class="menu_price">150</p></span><p class="menu_english">Lek Yum Haang</p>
+               <span class="menu-item"><p class="menu_thai">ผัดซีอิ้ว</p><p class="menu_price">120</p></span><p class="menu_english">Pat See Eeuu</p>
+             </div>
+            </div>
+           </div>
+           <div class="menu" id="menu_drinks">
+            <h3>Drinks</h3>
+            <div class="menu_rows">
+              <div>
+               <span class="menu-item"><p class="menu_thai">น้ํากระเจี๊ยบ</p><p class="menu_price">120</p></span><p class="menu_english">Nam Grajiam</p>
+               <span class="menu-item"><p class="menu_thai">กาแฟ</p><p class="menu_price">150</p></span><p class="menu_english">Gafae</p>
+              </div>
+              <div class="menu_row_2">
+               <span class="menu-item"><p class="menu_thai">ชาเย็น</p><p class="menu_price">120</p></span><p class="menu_english">Cha Yen</p>
+               <span class="menu-item"><p class="menu_thai">เบียร์สิงห์</p><p class="menu_price">130</p></span><p class="menu_english">Beah Singha</p>
+             </div>
+            </div>
+           </div>
+         </div>
     </div>
-    <div class="section" id="storydiv">
-       <h2>Bottom</h2>
+    <div class="section" id="story_div">
+      <div id="story_div_background">
+        <div id="story_div_title">
+          <h2>Our Story</h2>
+        </div>
+      </div>
+      <div class="story_text">
+        <p>Tachatan and his brother Nichnop grew up in Saraburi near the famous Kao Yai.  They grew up working on their family's flower farm where they learned how to cultivate healthy plants.  They decided to expand their farm and started growing fruits and vegetables.  Then using their grandma's recipes and techniques, the brothers learned how to use their fresh grown produce and create healthy delicious fresh dishes to be served and shared.</p>
+      </div>
     </div>
     <div class="section" id="picdiv">
-
+      <div class="pic_grid">
+        <div class="img_box">
+        <img class="picture" src="../Restaurant/Resources/thaipic2.jpg">
+        </div>
+        <div class="img_box">
+        <img class="picture" src="../Restaurant/Resources/Thaifood3.jpg">
+        </div>
+        <div class="img_box">
+        <img class="picture" src="../Restaurant/Resources/thaipic1.jpg">
+        </div>
+        <div class="img_box">
+          <img class="picture" src="../Restaurant/Resources/Saraburi2.jpg">
+        </div>
+        <div class="img_box">
+          <img class="picture" src="../Restaurant/Resources/thaipic3.jpg">
+        </div>
+        <div class="img_box">
+          <img class="picture" src="../Restaurant/Resources/thaifood7.jpg">
+        </div>
+      </div>
     </div>
   </body>
   <script src="../Restaurant/Restaurant.js"></script>
