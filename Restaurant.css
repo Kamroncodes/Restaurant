@@ -178,7 +178,7 @@ nav li {
 #info_div h2 {
     width: fit-content;
     padding: 0 0 0.75rem 0;
-    justify-self: center;
+    margin: 24px auto;
     border-bottom: 1px dashed #500d06;
 }
 
@@ -231,9 +231,8 @@ nav li {
     background-color: white;
     border: 2px solid #500d06;
     width: fit-content;
-    margin: 0;
+    margin: 0 auto;
     padding: 12px;
-    justify-self: center;
 }
 
 .menu_description-text {
@@ -325,9 +324,8 @@ nav li {
     background-color: white;
     border: 2px solid #500d06;
     width: fit-content;
-    margin: 0;
+    margin: 0 auto;
     padding: 12px;
-    justify-self: center;
 }
 
 #picdiv {
